@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/txtchange"
+        android:text="CHANGE PASS"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+
+    <EditText
+        android:id="@+id/edtPasc"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtchange"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/edtNewPass"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtPasc"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="New Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/edtxnpass"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtNewPass"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Repeat Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_below="@id/edtxnpass"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColor="#B68E8E"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnxn"
+            android:text="Xác Nhận"
+            android:textColor="#FFF"
+            android:background="#E4FA742B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnhuyp"
+            android:text="Hủy"
+            android:textColor="#FFF"
+            android:background="#E4FA742B"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

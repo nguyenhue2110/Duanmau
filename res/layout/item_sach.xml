@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/card1"
+
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/imgsach1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vanhoc3"
+            android:layout_width="80dp"
+            android:layout_height="120dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/txttentl1"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/imgsach1"
+            android:text="Tên thể loại"
+
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/txttensach1"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/imgsach1"
+            android:layout_below="@id/txttentl1"
+            android:text="abc"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtNXB"
+            android:layout_toRightOf="@id/imgsach1"
+            android:layout_below="@id/txttensach1"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:text="NXB"
+            android:layout_marginTop="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/txtTG"
+            android:layout_toRightOf="@id/imgsach1"
+            android:layout_below="@id/txtNXB"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:text="NXB"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/txtGia"
+            android:layout_toRightOf="@id/imgsach1"
+            android:layout_below="@id/txtTG"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:text="Giá"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/txtbv"
+            android:layout_toRightOf="@id/imgsach1"
+            android:layout_below="@id/txtGia"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:text="baove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

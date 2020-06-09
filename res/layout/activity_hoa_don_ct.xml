@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/bar1"
+    android:layout_width="match_parent"
+    android:background="#E4FA742B"
+    android:layout_height="50dp">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolhd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/imgback"
+          android:src="@drawable/back1"
+        android:layout_alignParentLeft="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <TextView
+          android:text="Hóa Đơn Chi Tiết"
+          android:textColor="#fff"
+          android:textStyle="bold"
+          android:layout_marginLeft="30dp"
+          android:layout_marginTop="5dp"
+          android:textSize="25sp"
+          android:layout_toRightOf="@id/imgback"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+  </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>
+
+
+
+</com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgbmahd"
+            android:src="@drawable/bill1"
+            android:layout_width="70dp"
+            android:layout_below="@id/imghds"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtmahd"
+            android:layout_toRightOf="@id/imghds"
+
+            android:layout_marginLeft="20dp"
+            android:hint="Mã Hóa Đơn"
+            android:layout_below="@id/edtbmasach1"
+            android:background="@drawable/edtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+       android:gravity="center"
+        android:layout_below="@id/ll1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imghds"
+            android:src="@drawable/book1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/edtbmasach1"
+            android:layout_toRightOf="@id/imghds"
+
+            android:layout_marginLeft="20dp"
+            android:hint="Mã Sách"
+            android:background="@drawable/edtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll2a"
+        android:gravity="center"
+        android:layout_below="@id/ll2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imgdate"
+            android:src="@drawable/date"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtdatea"
+            android:layout_toRightOf="@id/imghds"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll3"
+    android:layout_marginTop="20dp"
+    android:layout_below="@id/ll2a"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgsl"
+        android:src="@drawable/number"
+        android:layout_below="@id/imgbmahd"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtsoluong"
+        android:layout_marginLeft="20dp"
+        android:hint="Số lượng"
+        android:background="@drawable/edtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_below="@id/ll3"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnTinh"
+
+            android:background="@drawable/pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnThanhToan"
+            android:background="@drawable/save"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtThanhtien"
+        android:layout_below="@id/ll4"
+        android:text="Thành Tiền: "
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#E71414"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:id="@+id/ll5"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtThanhtien"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imggia"
+            android:src="@drawable/gia"
+            android:layout_below="@id/imgbmahd"
+            android:layout_width="70dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/txtGiahd"
+            android:layout_marginLeft="20dp"
+            android:hint="Giá bìa"
+            android:gravity="center"
+            android:textColor="#E92828"
+            android:textSize="20sp"
+            android:background="@drawable/edtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll6"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ll5"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgtotal"
+            android:src="@drawable/total"
+            android:layout_below="@id/imgbmahd"
+            android:layout_width="70dp"
+            android:textSize="20sp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/txttotal"
+            android:layout_marginLeft="20dp"
+            android:hint="Tổng Tiền"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#E92828"
+            android:background="@drawable/edtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

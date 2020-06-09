@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/card1"
+    android:background="#FFF"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/imgb"
+        android:src="@drawable/bill"
+       android:scaleType="centerCrop"
+        android:layout_width="150dp"
+        android:layout_height="170dp">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/edtmhd"
+        android:text="Mã Hóa Đơn:"
+        android:textSize="20sp"
+        android:textColor="#0091EA"
+        android:layout_toRightOf="@id/imgb"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtdemhd"
+        android:layout_marginTop="5dp"
+        android:hint="Mã hd"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/edtdembook"
+        android:text="Mã Sách:"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/imgb"
+        android:textColor="#0091EA"
+        android:layout_below="@id/edtmhd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtdedebook"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:hint="Số"
+        android:layout_below="@id/txtdemhd"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/edtngayhd"
+        android:text="Ngày:"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/imgb"
+        android:textColor="#0091EA"
+        android:layout_below="@id/edtdembook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:id="@+id/txtdatea"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:hint="Date"
+        android:layout_below="@id/txtdedebook"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/edtdesl"
+        android:text="Số Lượng:"
+        android:textSize="20sp"
+        android:textColor="#0091EA"
+        android:layout_below="@id/edtngayhd"
+        android:layout_toRightOf="@id/imgb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtdesl"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:hint="Số"
+        android:layout_below="@id/txtdatea"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/edtdegia"
+        android:text="Giá: "
+        android:textSize="20sp"
+        android:textColor="#0091EA"
+        android:layout_below="@id/edtdesl"
+        android:layout_toRightOf="@id/imgb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtdegia"
+        android:hint="Giá"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtdesl"
+        android:layout_alignParentRight="true"
+        android:textColor="#A9F01D1D"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/edtdetotal"
+        android:text="Tổng :"
+        android:textSize="20sp"
+        android:textColor="#0091EA"
+        android:layout_below="@id/edtdegia"
+        android:layout_toRightOf="@id/imgb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtdetotal"
+
+        android:hint="Tổng"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#A9F01D1D"
+        android:layout_below="@id/txtdegia"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

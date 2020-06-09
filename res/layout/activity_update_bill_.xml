@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtThemhd"
+        android:text="Update Bill"
+        android:textSize="25sp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#FF6D00"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <EditText
+        android:id="@+id/edtMahdup"
+        android:layout_below="@id/txtThemhd"
+        android:layout_centerHorizontal="true"
+        android:hint="Mã Hóa Đơn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtNgaybup"
+        android:layout_below="@id/edtMahdup"
+        android:layout_centerHorizontal="true"
+        android:hint="Ngày"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_below="@id/edtNgaybup"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnThembup"
+            android:text="Thêm"
+            android:textColor="#FFF"
+            android:background="#FFAB00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnHuybup"
+            android:text="Hủy"
+            android:textColor="#FFF"
+            android:background="#FFAB00"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

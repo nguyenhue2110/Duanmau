@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="30dp"
+    android:background="@drawable/register12"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/edtFullName1"
+        android:layout_marginTop="70dp"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="#B68E8E"
+            android:textColor="#B68E8E"
+            android:textSize="25dp"
+            android:hint="Full name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtpPhone1"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_below="@id/edtFullName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtpPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="#B68E8E"
+            android:textColor="#B68E8E"
+            android:textSize="25dp"
+            android:hint="Phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtPass1"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_below="@id/edtpPhone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="#B68E8E"
+            android:textColor="#B68E8E"
+            android:textSize="25dp"
+            android:hint="Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtConfirm1"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_below="@id/edtPass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="#B68E8E"
+            android:textColor="#B68E8E"
+            android:textSize="25dp"
+            android:hint="Confirm Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/btndky"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnd"
+        android:layout_below="@id/edtConfirm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btncancel"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/btndky"
+        android:layout_below="@id/edtConfirm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

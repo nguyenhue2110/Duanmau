@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgbill"
+            android:src="@drawable/bill1"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtMabill"
+            android:layout_toRightOf="@id/imgbill"
+            android:text="Tên"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/txtNgaybill"
+            android:layout_toRightOf="@id/imgbill"
+            android:text="ngay"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/txtMabill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

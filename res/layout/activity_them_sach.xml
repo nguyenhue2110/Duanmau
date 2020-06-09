@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/txtttla"
+        android:text="ADD Book"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/imgsach"
+        android:layout_below="@id/txtttla"
+        android:src="@drawable/pic"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+
+        android:layout_height="90dp">
+
+    </ImageView>
+
+
+    <EditText
+        android:id="@+id/edtMasach"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgsach"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Mã"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/spnersach1"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgsach"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Thể Loại"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edttensach"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/spnersach1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/edtNXB"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edttensach"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Nhà Xuất Bản"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtTacGia"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtNXB"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Tác Giả"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtGia"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtTacGia"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Giá"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtbv1"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtGia"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="bv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@id/edtbv1"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColor="#B68E8E"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnADDs"
+            android:text="ADD"
+            android:textColor="#FFF"
+            android:background="#E4FA742B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnCanceldls"
+            android:text="Cancel"
+            android:textColor="#FFF"
+            android:background="#E4FA742B"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

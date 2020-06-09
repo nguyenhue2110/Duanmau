@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/home1"
+
+        />
+    <item
+        android:id="@+id/User"
+        android:title=" User"
+        android:icon="@drawable/us1"
+        />
+
+    <item
+        android:id="@+id/Book"
+        android:title="Book"
+        android:icon="@drawable/book1"
+        />
+
+    <item
+        android:id="@+id/Bill"
+        android:title="Bill"
+        android:icon="@drawable/biil"
+        />
+
+
+    <item
+        android:id="@+id/sbc"
+        android:title="Hot sale"
+        android:icon="@drawable/sale"
+        />
+    <item
+        android:icon="@drawable/statics"
+        android:id="@+id/tk"
+        android:title="Satistics"
+
+        />
+
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:icon="@drawable/setting"
+        />
+
+
+    <item
+        android:icon="@drawable/exits1"
+        android:id="@+id/thoat"
+        android:title="Thoát"/>
+</group>
+</menu>

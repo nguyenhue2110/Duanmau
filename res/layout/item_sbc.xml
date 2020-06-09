@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/card1"
+    android:background="#FFF"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <ImageView
+            android:id="@+id/imgb"
+            android:src="@drawable/book1"
+            android:scaleType="centerCrop"
+            android:layout_width="150dp"
+            android:layout_height="130dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/edtmhdsbc"
+            android:text="Mã Hóa Đơn:"
+            android:textSize="20sp"
+            android:textColor="#0091EA"
+            android:layout_toRightOf="@id/imgb"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtdemhdsbc"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:hint="Số"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/edtdembooksbc"
+            android:text="Mã Sách:"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/imgb"
+            android:layout_marginTop="5dp"
+            android:textColor="#0091EA"
+            android:layout_below="@id/edtmhdsbc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtdedebooksbc"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:hint="Số"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/txtdemhdsbc"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+        <TextView
+            android:id="@+id/edtdeslsbc"
+            android:text="Số Lượng:"
+            android:textSize="20sp"
+            android:textColor="#0091EA"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/txtdedebooksbc"
+            android:layout_toRightOf="@id/imgb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtdeslsbc"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:hint="Số"
+            android:layout_below="@id/txtdedebooksbc"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

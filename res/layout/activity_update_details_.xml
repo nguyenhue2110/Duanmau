@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:id="@+id/txtupdatedetail"
+    android:text="Update Details"
+    android:layout_marginLeft="25dp"
+    android:textColor="#FF6D00"
+    android:textSize="25sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/txtMahdde"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtupdatedetail"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Mã hd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtMaSachde"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtMahdde"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="Ma s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtdatebu"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtMaSachde"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edtpass"
+        android:hint="ngay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtSoluongde"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtdatebu"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/edtpass"
+        android:hint="Số lượng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtgiade"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtSoluongde"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/edtpass"
+        android:hint="gia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txttongde"
+        android:textColorHint="#B68E8E"
+        android:textColor="#B68E8E"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtgiade"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/edtpass"
+        android:hint="Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@id/txttongde"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColor="#B68E8E"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnADDde"
+            android:text="Pay"
+            android:textColor="#FFF"
+            android:background="#E4FA742B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnSavede"
+            android:text="Save"
+            android:textColor="#FFF"
+            android:background="#E4FA742B"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
